@@ -19,3 +19,11 @@ if ! id grayhat &>/dev/null; then
 fi
 
 passwd --lock grayhat
+
+
+# Configure LightDM automatic login permissions.
+if ! getent group autologin >/dev/null; then
+    groupadd --system autologin
+fi
+
+usermod -aG autologin grayhat
