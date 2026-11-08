@@ -126,3 +126,15 @@ xdg-utils
 xfsprogs
 xl2tpd
 zsh
+
+# Gray-Hat XFCE Desktop
+xfce4
+xfce4-terminal
+thunar
+lightdm
+lightdm-gtk-greeter
+xorg-server
+xorg-xinit
+mesa
+networkmanager
+network-manager-applet
