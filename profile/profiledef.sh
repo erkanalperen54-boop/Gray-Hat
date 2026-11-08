@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="gray-hat"
+iso_name="Gray-Hat"
 iso_label="GRAYHAT_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="The Gray Hat Project"
 iso_application="Gray Hat Live/Rescue DVD"

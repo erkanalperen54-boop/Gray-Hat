@@ -1,0 +1,7 @@
+Lead Developer:
+    Name: Alperen ERKAN
+    Nick: Ghost
+    e-mail: <erkanalperen [at] gmail.com>, <erkan@gnu-ai.org>
+    Github: https://github.com/erkanalperen54-boop
+**************************************************************
+

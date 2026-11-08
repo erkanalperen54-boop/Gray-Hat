@@ -14,3 +14,9 @@ out/
 # Editor files
 .vscode/
 .idea/
+
+# AI/LLM files
+.opencode/
+*.agent
+*.orchestrator
+*.agent.md
