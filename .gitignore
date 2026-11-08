@@ -1,0 +1,16 @@
+# ISO images
+*.iso
+*.img
+*.qcow2
+
+# Archiso build artifacts
+work/
+out/
+
+# Temporary files
+*.tmp
+*.log
+
+# Editor files
+.vscode/
+.idea/
