@@ -1,0 +1,13 @@
+
+# remove from airootfs!
+
+[Trigger]
+Operation = Install
+Type = Package
+Target = base
+
+[Action]
+Description = Creating Gray-Hat live user...
+When = PostTransaction
+Depends = shadow
+Exec = /usr/bin/bash /usr/local/bin/grayhat-create-user

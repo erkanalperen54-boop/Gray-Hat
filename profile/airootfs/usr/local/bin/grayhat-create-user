@@ -1,0 +1,21 @@
+
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Gray-Hat live user initialization.
+# Run only inside the target Archiso root filesystem.
+
+if [[ "$(id -u)" -ne 0 ]]; then
+    echo "This script must run as root." >&2
+    exit 1
+fi
+
+if ! id grayhat &>/dev/null; then
+    useradd \
+        --create-home \
+        --user-group \
+        --shell /bin/bash \
+        grayhat
+fi
+
+passwd --lock grayhat
