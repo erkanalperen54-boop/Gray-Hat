@@ -1,0 +1,10 @@
+NAME="Gray-Hat Linux"
+PRETTY_NAME="Gray-Hat Linux"
+ID=gray-hat
+ID_LIKE=arch
+VERSION="0.1.0-alpha"
+VERSION_ID=0.1.0
+VERSION_CODENAME=alpha
+BUILD_ID=2026.11
+ANSI_COLOR="0;37"
+HOME_URL="https://github.com/"
